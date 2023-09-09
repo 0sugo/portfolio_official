@@ -368,7 +368,7 @@ body.nav-active { overflow: hidden; }
   justify-content: space-between;
   align-items: center;
 }
-.logo {
+.written-logo {
   color: var(--white);
   font-family: var(--ff-syne);
   font-size: var(--fs-4);
