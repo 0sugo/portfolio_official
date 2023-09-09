@@ -25,3 +25,22 @@ window.addEventListener("DOMContentLoaded", function () {
   document.body.classList.add("loaded");
 });
 
+
+/**
+ * NAVBAR
+ * navbar toggle for mobile
+ */
+
+const navTogglers = document.querySelectorAll("[data-nav-toggler]");
+const navToggleBtn = document.querySelector("[data-nav-toggle-btn]");
+const navbar = document.querySelector("[data-navbar]");
+const overlay = document.querySelector("[data-overlay]");
+
+const toggleNavbar = function () {
+  navbar.classList.toggle("active");
+  navToggleBtn.classList.toggle("active");
+  overlay.classList.toggle("active");
+  document.body.classList.toggle("nav-active");
+}
+
+addEventOnElements(navTogglers, "click", toggleNavbar);
