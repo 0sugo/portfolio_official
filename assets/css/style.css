@@ -426,3 +426,4 @@ body.nav-active { overflow: hidden; }
 }
 
 .navbar-link:is(:hover, :focus-visible) { text-shadow: 1px 0 0 var(--eerie-black); }
+
