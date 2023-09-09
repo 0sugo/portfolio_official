@@ -341,3 +341,30 @@ body.nav-active { overflow: hidden; }
 }
 
 .preloader.loaded .circle { opacity: 0; }
+
+
+/*-----------------------------------*\
+  #HEADER
+\*-----------------------------------*/
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--eerie-black);
+  padding-block: 24px;
+  z-index: 4;
+  transition: var(--transition-1);
+}
+
+.header.active {
+  background-color: var(--raisin-black);
+  padding-block: 16px;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
