@@ -368,7 +368,11 @@ body.nav-active { overflow: hidden; }
   justify-content: space-between;
   align-items: center;
 }
-
+.logo {
+  color: var(--white);
+  font-family: var(--ff-syne);
+  font-size: var(--fs-4);
+}
 
 .nav-toggle-btn {
   width: 50px;
