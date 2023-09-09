@@ -63,6 +63,81 @@
     </div>
   </header>
 
+  <main>
+    <article>
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Joseck Osugo</h1>
+
+            <p class="hero-subtitle">
+              Creative Web & App Developer
+            </p>
+
+            <div class="hero-banner">
+              <img src="./assets/images/hero-banner.jpg" width="800" height="800" alt="Joseck Osugo" class="w-100">
+            </div>
+
+            <p class="section-text">
+              Hi,I'm Joseck Osugo, a passionate web and app developer with a vision to improve the world through innovative technology, crafting cutting-edge and captivating digital solutions.
+            </p>
+
+            <a href="#"
+            /**
+             * NAVBAR
+             * navbar toggle for mobile
+             */
+
+            const navTogglers = document.querySelectorAll("[data-nav-toggler]");
+            const navToggleBtn = document.querySelector("[data-nav-toggle-btn]");
+            const navbar = document.querySelector("[data-navbar]");
+            const overlay = document.querySelector("[data-overlay]");
+
+            const toggleNavbar = function () {
+              navbar.classList.toggle("active");
+              navToggleBtn.classList.toggle("active");
+              overlay.classList.toggle("active");
+              document.body.classList.toggle("nav-active");
+            }
+
+            addEventOnElements(navTogglers, "click", toggleNavbar);
+
+/**
+* NAVBAR
+* navbar toggle for mobile
+*/
+
+const navTogglers = document.querySelectorAll("[data-nav-toggler]");
+const navToggleBtn = document.querySelector("[data-nav-toggle-btn]");
+const navbar = document.querySelector("[data-navbar]");
+const overlay = document.querySelector("[data-overlay]");
+
+const toggleNavbar = function () {
+ navbar.classList.toggle("active");
+ navToggleBtn.classList.toggle("active");
+ overlay.classList.toggle("active");
+ document.body.classList.toggle("nav-active");
+}
+
+addEventOnElements(navTogglers, "click", toggleNavbar);
+class="btn has-before">
+              <span class="span">Download CV</span>
+
+              <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+
+      
+
+    </article>
+  </main>
+
   <script src="./assets/js/script.js"></script>
 
   <!--
