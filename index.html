@@ -12,6 +12,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
   <div class="preloader" data-preloader>
     <div class="circle"></div>
@@ -22,7 +23,7 @@
 
       <a href="#" class="logo">
         <!-- <img src="./assets/images/logo.svg" width="170" height="40" alt="Osugos logo"> -->
-        <p class="written-logo">Osu.Codes</p>
+        <p class="written-logo">Osu.codes</p>
       </a>
 
       <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
@@ -71,7 +72,7 @@
 
           <div class="hero-content">
 
-            <h1 class="h1 hero-title">Joseck <br/>Osugo</h1>
+            <h1 class="h1 hero-title">Joseck <br />Osugo</h1>
 
             <p class="hero-subtitle">
               Creative Web & App Developer
@@ -82,52 +83,70 @@
             </div>
 
             <p class="section-text">
-              Hi,I'm Joseck Osugo, a passionate web and app developer with a vision to improve the world through innovative technology, crafting cutting-edge and captivating digital solutions.
+              Hi,I'm Joseck Osugo, a passionate web and app developer with a vision to improve the world through
+              innovative technology, crafting cutting-edge and captivating digital solutions.
             </p>
 
-            <a href="https://drive.google.com/file/d/1gpCa-VSD0Uz7CKyO8bQldykrttprhqNj/view?usp=drive_link" target="_blank"
-            /**
-             * NAVBAR
-             * navbar toggle for mobile
-             */
-
-            const navTogglers = document.querySelectorAll("[data-nav-toggler]");
-            const navToggleBtn = document.querySelector("[data-nav-toggle-btn]");
-            const navbar = document.querySelector("[data-navbar]");
-            const overlay = document.querySelector("[data-overlay]");
-
-            const toggleNavbar = function () {
-              navbar.classList.toggle("active");
-              navToggleBtn.classList.toggle("active");
-              overlay.classList.toggle("active");
-              document.body.classList.toggle("nav-active");
-            }
-
-            addEventOnElements(navTogglers, "click", toggleNavbar);
-
-/**
-* NAVBAR
-* navbar toggle for mobile
-*/
-
-const navTogglers = document.querySelectorAll("[data-nav-toggler]");
-const navToggleBtn = document.querySelector("[data-nav-toggle-btn]");
-const navbar = document.querySelector("[data-navbar]");
-const overlay = document.querySelector("[data-overlay]");
-
-const toggleNavbar = function () {
- navbar.classList.toggle("active");
- navToggleBtn.classList.toggle("active");
- overlay.classList.toggle("active");
- document.body.classList.toggle("nav-active");
-}
-
-addEventOnElements(navTogglers, "click", toggleNavbar);
-class="btn has-before">
+            <a href="https://drive.google.com/file/d/1gpCa-VSD0Uz7CKyO8bQldykrttprhqNj/view?usp=drive_link"
+              target="_blank" /** * NAVBAR * navbar toggle for mobile */ const
+              navTogglers=document.querySelectorAll("[data-nav-toggler]"); const
+              navToggleBtn=document.querySelector("[data-nav-toggle-btn]"); const
+              navbar=document.querySelector("[data-navbar]"); const overlay=document.querySelector("[data-overlay]");
+              const toggleNavbar=function () { navbar.classList.toggle("active");
+              navToggleBtn.classList.toggle("active"); overlay.classList.toggle("active");
+              document.body.classList.toggle("nav-active"); } addEventOnElements(navTogglers, "click" , toggleNavbar);
+              /** * NAVBAR * navbar toggle for mobile */ const
+              navTogglers=document.querySelectorAll("[data-nav-toggler]"); const
+              navToggleBtn=document.querySelector("[data-nav-toggle-btn]"); const
+              navbar=document.querySelector("[data-navbar]"); const overlay=document.querySelector("[data-overlay]");
+              const toggleNavbar=function () { navbar.classList.toggle("active");
+              navToggleBtn.classList.toggle("active"); overlay.classList.toggle("active");
+              document.body.classList.toggle("nav-active"); } addEventOnElements(navTogglers, "click" , toggleNavbar);
+              class="btn has-before">
               <span class="span">View Resume</span>
 
               <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
             </a>
+
+            <ul class="social-list">
+
+              <li>
+                <a href="https://github.com/0sugo" class="social-link">
+                  <ion-icon name="logo-github"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="mailto:josugo38@gmail.com" class="social-link">
+                  <ion-icon name="mail-outline"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://api.whatsapp.com/send?phone=254726526801" class="social-link">
+                  <ion-icon name="logo-whatsapp"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.instagram.com/_osugo_/" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://twitter.com/osugo5" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.linkedin.com/in/joseck-osugo/" class="social-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
 
           </div>
 
@@ -152,7 +171,10 @@ class="btn has-before">
             </div>
 
             <p class="section-text">
-              Discover a world of digital possibilities with my range of expertise. From design to development, IoT solutions, technical consulting, and social media strategies, I offer a comprehensive suite of services to bring your digital goals to life. Dive into the details below and let's embark on a journey of innovation together.
+              Discover a world of digital possibilities with my range of expertise. From design to development, IoT
+              solutions, technical consulting, and social media strategies, I offer a comprehensive suite of services to
+              bring your digital goals to life. Dive into the details below and let's embark on a journey of innovation
+              together.
             </p>
 
           </div>
@@ -171,7 +193,8 @@ class="btn has-before">
                   <h3 class="h3 card-title">Design</h3>
 
                   <p class="card-text">
-                    From creating wireframes to high quality mockups, I adore taking part in the conception phase of any product.
+                    From creating wireframes to high quality mockups, I adore taking part in the conception phase of any
+                    product.
                   </p>
 
                   <span class="text-lg card-number">01</span>
@@ -191,7 +214,8 @@ class="btn has-before">
                   <h3 class="h3 card-title">Develop</h3>
 
                   <p class="card-text">
-                    With a text editor and a vision, I'm a sucker for writing code. Breathing life into designs excites me.
+                    With a text editor and a vision, I'm a sucker for writing code. Breathing life into designs excites
+                    me.
                   </p>
 
                   <span class="text-lg card-number">02</span>
@@ -211,7 +235,8 @@ class="btn has-before">
                   <h3 class="h3 card-title">Deploy</h3>
 
                   <p class="card-text">
-                    Provisioning resources and the entire complete architecture to the cloud is the awesomeness that I thrive in.
+                    Provisioning resources and the entire complete architecture to the cloud is the awesomeness that I
+                    thrive in.
                   </p>
 
                   <span class="text-lg card-number">03</span>
@@ -231,7 +256,8 @@ class="btn has-before">
                   <h3 class="h3 card-title">IoT Solutions</h3>
 
                   <p class="card-text">
-                    Design and implement IoT solutions to connect and control devices, collect and analyze data, and create smart, interconnected systems for homes, businesses, and industries.
+                    Design and implement IoT solutions to connect and control devices, collect and analyze data, and
+                    create smart, interconnected systems for homes, businesses, and industries.
                   </p>
 
                   <span class="text-lg card-number">04</span>
@@ -252,7 +278,8 @@ class="btn has-before">
                   <h3 class="h3 card-title">Technical Consulting</h3>
 
                   <p class="card-text">
-                    I Offer expert guidance and consulting services to help you make informed decisions about technology choices, project planning, and software architecture.
+                    I Offer expert guidance and consulting services to help you make informed decisions about technology
+                    choices, project planning, and software architecture.
                   </p>
 
                   <span class="text-lg card-number">05</span>
@@ -273,7 +300,9 @@ class="btn has-before">
                   <h3 class="h3 card-title">Social Media</h3>
 
                   <p class="card-text">
-                    Leverage the power of social media platforms to increase brand visibility, engage with your audience, and drive traffic and conversions through strategic content creation and targeted advertising.
+                    Leverage the power of social media platforms to increase brand visibility, engage with your
+                    audience, and drive traffic and conversions through strategic content creation and targeted
+                    advertising.
                   </p>
 
                   <span class="text-lg card-number">06</span>
@@ -303,7 +332,7 @@ class="btn has-before">
       </section>
 
 
-       <!--
+      <!--
         - #SKILLS
       -->
 
@@ -318,14 +347,16 @@ class="btn has-before">
 
             <div>
               <p class="section-text">
-                In today's dynamic tech landscape, I've cultivated a versatile skill set that spans web and app development, custom software solutions and IoT implementation.
+                In today's dynamic tech landscape, I've cultivated a versatile skill set that spans web and app
+                development, custom software solutions and IoT implementation.
               </p>
 
               <p class="section-text">
-                My proficiency in these areas enables me to deliver holistic digital solutions that make an impact. Dive into my skills below, each representing my dedication to excellence in the digital world.
+                My proficiency in these areas enables me to deliver holistic digital solutions that make an impact. Dive
+                into my skills below, each representing my dedication to excellence in the digital world.
               </p>
 
-              <a href="#" class="btn has-before">josugo38@gmail.com</a>
+              <a href="mailto:josugo38@gmail.com" class="btn has-before">josugo38@gmail.com</a>
             </div>
 
             <div>
@@ -395,113 +426,136 @@ class="btn has-before">
       -->
 
       <section class="portfolio" aria-labelledby="portfolio-label" id="works">
+        <div class="container">
+          <div class="title-wrapper container">
 
-        <div class="title-wrapper container">
+            <div>
+              <p class="section-subtitle" id="portfolio-label">My works</p>
 
-          <div>
-            <p class="section-subtitle" id="portfolio-label">My works</p>
+              <h2 class="h2 section-title">Works</h2>
+            </div>
 
-            <h2 class="h2 section-title">Works</h2>
+            <p class="section-text">
+              Step into the realm of my past creations and witness the power of technology harnessed to perfection.
+              Explore an array of projects that showcase my skills, creativity, and dedication to delivering outstanding
+              digital solutions. Each project tells a unique story of innovation and excellence.
+            </p>
+
           </div>
 
-          <p class="section-text">
-            Step into the realm of my past creations and witness the power of technology harnessed to perfection. Explore an array of projects that showcase my skills, creativity, and dedication to delivering outstanding digital solutions. Each project tells a unique story of innovation and excellence.
-          </p>
+          <div class="slider" data-slider>
 
-        </div>
+            <ul class="slider-container" data-slider-container>
 
-        <div class="slider" data-slider>
+              <li class="slider-item">
+                <div class="portfolio-card" style="--width: 600; --height: 600;">
 
-          <ul class="slider-container" data-slider-container>
+                  <img src="./assets/images/projo2.png" width="600" height="600" loading="lazy" alt="portfolio"
+                    class="img-cover">
 
-            <li class="slider-item">
-              <div class="portfolio-card" style="--width: 600; --height: 600;">
+                  <div class="card-content">
+                    <h3 class="h3 card-title">CALENDERIFIC</h3>
 
-                <img src="./assets/images/projo2.png" width="600" height="600" loading="lazy" alt="portfolio"
+                    <p class="card-text">Dive into the world of a math magician where you can make calculations
+                      while getting a peak inside the brilliant minds of the greatest mathematicians.</p>
 
-                  class="img-cover">
+                    <div class="work-links">
+                      <a href="https://github.com/0sugo/calenderific" class="">code</a>
+                      <a href="https://calenderific.onrender.com" class="sos">live</a>
+                    </div>
 
-                <div class="card-content">
-                  <h3 class="h3 card-title">World Holidays</h3>
+                  </div>
 
-                  <p class="card-text">World Holidays</p>
                 </div>
+              </li>
 
-                <a href="#" class="layer-link"></a>
+              <li class="slider-item">
+                <div class="portfolio-card" style="--width: 600; --height: 600;">
 
-              </div>
-            </li>
+                  <img src="./assets/images/projo1.png" width="600" height="600" loading="lazy" alt="portfolio"
+                    class="img-cover">
 
-            <li class="slider-item">
-              <div class="portfolio-card" style="--width: 600; --height: 600;">
+                  <div class="card-content">
+                    <h3 class="h3 card-title">CASH FLOW NEXUS</h3>
 
-                <img src="./assets/images/projo1.png" width="600" height="600" loading="lazy" alt="portfolio"
-                class="img-cover">
+                    <p class="card-text">Dive into the world of a math magician where you can make calculations
+                      while getting a peak inside the brilliant minds of the greatest mathematicians.</p>
 
-                <div class="card-content">
-                  <h3 class="h3 card-title">XXXX</h3>
+                    <div class="work-links">
+                      <a href="https://github.com/0sugo/cash-flow-nexus" class="">code</a>
+                      <a href="https://cash-flow-nexus.onrender.com/" class="sos">live</a>
+                    </div>
 
-                  <p class="card-text">XXX</p>
+                  </div>
+
                 </div>
+              </li>
 
-                <a href="#" class="layer-link"></a>
+              <li class="slider-item">
+                <div class="portfolio-card" style="--width: 650; --height: 650;">
 
-              </div>
-            </li>
+                  <img src="./assets/images/projo4.png" width="600" height="600" loading="lazy" alt="portfolio"
+                    class="img-cover">
 
-            <li class="slider-item">
-              <div class="portfolio-card" style="--width: 650; --height: 650;">
+                  <div class="card-content">
+                    <h3 class="h3 card-title">LEADERBOARD</h3>
 
-                <img src="./assets/images/projo4.png" width="600" height="600" loading="lazy" alt="portfolio"
-                  class="img-cover">
+                    <p class="card-text">Dive into the world of a math magician where you can make calculations
+                      while getting a peak inside the brilliant minds of the greatest mathematicians.</p>
 
-                <div class="card-content">
-                  <h3 class="h3 card-title">XXX</h3>
+                    <div class="work-links">
+                      <a href="https://github.com/0sugo/leaderboard" class="">code</a>
+                      <a href="https://0sugo.github.io/leaderboard/dist/" class="sos">live</a>
+                    </div>
 
-                  <p class="card-text">XXXX</p>
+                  </div>
+
                 </div>
+              </li>
 
-                <a href="#" class="layer-link"></a>
+              <li class="slider-item">
+                <div class="portfolio-card" style="--width: 600; --height: 600;">
 
-              </div>
-            </li>
+                  <img src="./assets/images/projo6.png" width="600" height="600" loading="lazy" alt="portfolio"
+                    class="img-cover">
 
-            <li class="slider-item">
-              <div class="portfolio-card" style="--width: 600; --height: 600;">
+                  <div class="card-content">
+                    <h3 class="h3 card-title">MATH MAGICIAN</h3>
 
-                <img src="./assets/images/projo6.png" width="600" height="600" loading="lazy" alt="portfolio"
-                  class="img-cover">
+                    <p class="card-text">Dive into the world of a math magician where you can make calculations
+                      while getting a peak inside the brilliant minds of the greatest mathematicians.</p>
 
-                <div class="card-content">
-                  <h3 class="h3 card-title">XXXX</h3>
+                    <div class="work-links">
+                      <a href="https://github.com/0sugo/math-magician" class="">code</a>
+                      <a href="https://math-magician-2bon.onrender.com" class="sos">live</a>
+                    </div>
 
-                  <p class="card-text">live</p>
+                  </div>
+
                 </div>
+              </li>
 
-                <a href="#" class="layer-link"></a>
+            </ul>
 
-              </div>
-            </li>
+            <div class="slider-controls">
+              <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
 
-          </ul>
+              <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+            </div>
 
-          <div class="slider-controls">
-            <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
-              <div class="line"></div>
-              <div class="arrow"></div>
-            </button>
-
-            <button class="slider-control next" data-slider-next aria-label="Slide to next item">
-              <div class="line"></div>
-              <div class="arrow"></div>
-            </button>
           </div>
-
         </div>
+
 
       </section>
 
-       <!--
+      <!--
         - #BLOG
       -->
 
@@ -518,8 +572,8 @@ class="btn has-before">
               <div class="blog-card">
 
                 <figure class="card-banner img-holder" style="--width: 700; --height: 470;">
-                  <img src="./assets/images/blog-1.png" width="700" height="470" loading="lazy"
-                    alt="latest article." class="img-cover">
+                  <img src="./assets/images/blog-1.png" width="700" height="470" loading="lazy" alt="latest article."
+                    class="img-cover">
                 </figure>
 
                 <div class="card-content">
@@ -536,7 +590,8 @@ class="btn has-before">
                       Understanding Dependencies and Dev Dependencies in Node.js.
                     </p>
 
-                    <a href="https://medium.com/@josugo38/unraveling-the-distinction-understanding-dependencies-and-dev-dependencies-in-node-js-d629ead7b013" class="btn has-before">
+                    <a href="https://medium.com/@josugo38/unraveling-the-distinction-understanding-dependencies-and-dev-dependencies-in-node-js-d629ead7b013"
+                      class="btn has-before">
                       <span class="span">Read more</span>
 
                       <ion-icon name="arrow-forward"></ion-icon>
@@ -568,7 +623,8 @@ class="btn has-before">
                     <h3 class="h3 card-title">Project pitch – 'Mechanicall'.</h3>
 
                     <p class="card-text">
-                      Successfully participated in the Annual CUK innovation week held at the co-operative university of Kenya(CUK) and pitched the 'Mechanicall' application and came in at fourth position overall.
+                      Successfully participated in the Annual CUK innovation week held at the co-operative university of
+                      Kenya(CUK) and pitched the 'Mechanicall' application and came in at fourth position overall.
                     </p>
 
                     <a href="https://twitter.com/osugo5/status/1585391222591348736?s=20" class="btn has-before">
@@ -588,11 +644,70 @@ class="btn has-before">
         </div>
       </section>
 
+      <!--
+    - #CONTACT US FORM
+  -->
+
+      <section class="section">
+          <div class="container">
+            <div class="screen">
+              <div class="screen-header">
+                <div class="screen-header-left">
+                  <div class="screen-header-button close"></div>
+                  <div class="screen-header-button maximize"></div>
+                  <div class="screen-header-button minimize"></div>
+                </div>
+                <div class="screen-header-right">
+                  <div class="screen-header-ellipsis"></div>
+                  <div class="screen-header-ellipsis"></div>
+                  <div class="screen-header-ellipsis"></div>
+                </div>
+              </div>
+              <div class="screen-body">
+                <div class="screen-body-item left">
+                  <div class="app-title">
+                    <span>CONTACT</span>
+                    <span>ME</span>
+                  </div>
+                  <div class="app-contact">CONTACT INFO : +254 726526801</div>
+                </div>
+                <div class="screen-body-item">
+                  <div class="app-form">
+                    <div class="app-form-group">
+                      <input class="app-form-control" placeholder="NAME">
+                    </div>
+                    <div class="app-form-group">
+                      <input class="app-form-control" placeholder="EMAIL">
+                    </div>
+                    <div class="app-form-group">
+                      <input class="app-form-control" placeholder="CONTACT NO">
+                    </div>
+                    <div class="app-form-group message">
+                      <input class="app-form-control" placeholder="MESSAGE">
+                    </div>
+                    <div class="app-form-group buttons">
+                      <button class="app-form-button">CANCEL</button>
+                      <button class="app-form-button">SEND</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+      </section>
+
 
     </article>
   </main>
 
-    <!--
+
+
+
+
+
+  <!--
     - #FOOTER
   -->
 
@@ -623,7 +738,7 @@ class="btn has-before">
 
       </ul>
 
-      <ul class="social-list">
+      <ul class="social-lis">
 
         <li>
           <a href="https://github.com/0sugo" class="social-link">
@@ -674,4 +789,5 @@ class="btn has-before">
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
