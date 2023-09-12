@@ -55,7 +55,7 @@
           </li>
 
           <li>
-            <a href="#contacts" class="navbar-link">Contact</a>
+            <a href="#contact-form" class="navbar-link">Contact</a>
           </li>
 
         </ul>
@@ -648,7 +648,7 @@
     - #CONTACT US FORM
   -->
 
-      <section class="section">
+      <section class="section" id="contact-form">
           <div class="container">
             <div class="screen">
               <div class="screen-header">
@@ -672,24 +672,25 @@
                   <div class="app-contact">CONTACT INFO : +254 726526801</div>
                 </div>
                 <div class="screen-body-item">
-                  <div class="app-form">
+
+                  <form class="app-form" action="https://formspree.io/f/mayzodlp" method="post">
                     <div class="app-form-group">
-                      <input class="app-form-control" placeholder="NAME">
+                      <input class="app-form-control" type="text" placeholder="FULL NAME"  maxlength="30" id="name" name="user_name" required>
                     </div>
                     <div class="app-form-group">
-                      <input class="app-form-control" placeholder="EMAIL">
+                      <input class="app-form-control" type="email" placeholder="EMAIL" id="email" required name="user_email">
                     </div>
                     <div class="app-form-group">
                       <input class="app-form-control" placeholder="CONTACT NO">
                     </div>
                     <div class="app-form-group message">
-                      <input class="app-form-control" placeholder="MESSAGE">
+                      <input class="app-form-control" id="message" name="user_message" maxlength="500" required placeholder="ENTER MESSAGE">
                     </div>
                     <div class="app-form-group buttons">
-                      <button class="app-form-button">CANCEL</button>
                       <button class="app-form-button">SEND</button>
                     </div>
-                  </div>
+                    <span id="form-error" class="error" aria-live="polite">Your email needs to be in lowercase</span>
+                  </form>
                 </div>
               </div>
             </div>
