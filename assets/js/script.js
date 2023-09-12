@@ -163,14 +163,27 @@ const setEmail = localStorage.getItem('email');
 const setMessage = localStorage.getItem('message');
 
 
-  if (email.value !== email.value.toLowerCase()) {
-    errorMsg.style.visibility = 'visible';
-    event.preventDefault();
-  } else if (email.validity.typeMismatch) {
-    errorMsg.textContent = 'Please enter a valid email address';
-    errorMsg.style.validity = 'visible';
-    event.preventDefault();
-  } else {
+var errorMsg = document.getElementById('form-error');
+
+if (email.value !== email.value.toLowerCase()) {
+  errorMsg.textContent = 'Email should be in lowercase';
+  errorMsg.style.visibility = 'visible';
+
+  setTimeout(function() {
     errorMsg.style.visibility = 'hidden';
-  }
-});
+  }, 3000);
+
+  event.preventDefault();
+} else if (email.validity.typeMismatch) {
+  errorMsg.textContent = 'Please enter a valid email address';
+  errorMsg.style.visibility = 'visible';
+
+  setTimeout(function() {
+    errorMsg.style.visibility = 'hidden';
+  }, 3000);
+
+  event.preventDefault();
+} else {
+  errorMsg.style.visibility = 'hidden';
+}})
+
