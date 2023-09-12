@@ -164,6 +164,8 @@ const setMessage = localStorage.getItem('message');
 
 
 var errorMsg = document.getElementById('form-error');
+var email = document.getElementById('email');
+var form = document.querySelector('.app-form');
 
 if (email.value !== email.value.toLowerCase()) {
   errorMsg.textContent = 'Email should be in lowercase';
@@ -171,12 +173,14 @@ if (email.value !== email.value.toLowerCase()) {
 
   setTimeout(function() {
     errorMsg.style.visibility = 'hidden';
+    email.value ='';
   }, 3000);
 
   event.preventDefault();
 } else if (email.validity.typeMismatch) {
   errorMsg.textContent = 'Please enter a valid email address';
   errorMsg.style.visibility = 'visible';
+  email.value ='';
 
   setTimeout(function() {
     errorMsg.style.visibility = 'hidden';
@@ -186,4 +190,5 @@ if (email.value !== email.value.toLowerCase()) {
 } else {
   errorMsg.style.visibility = 'hidden';
 }})
+
 
