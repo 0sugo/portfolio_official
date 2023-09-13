@@ -804,7 +804,7 @@ body.nav-active {
   display: flex;
   justify-content: center;
   gap: 8px;
-  margin-top: 10%;
+  margin-top: 8%;
 }
 .social-lis {
   display: flex;
