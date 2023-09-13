@@ -11,7 +11,6 @@
   --white: hsla(0, 0%, 100%, 1);
   --white_a10: hsla(0, 0%, 100%, 0.1);
   --white_a5: hsla(0, 0%, 100%, 0.05);
-  /* --red: hsla(0, 100%, 50%, 0.295); */
   --red: hsla(0, 100%, 50%, 0.616);
 
   /**
@@ -1312,6 +1311,7 @@ body.nav-active {
   color: var(--red);
 }
 .error {
+  color: var(--red);
   visibility: hidden;
 
 
