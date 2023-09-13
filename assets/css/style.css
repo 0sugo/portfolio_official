@@ -1295,7 +1295,8 @@ body.nav-active {
 .app-form-button {
   background: none;
   border: none;
-  color: #ea1d6f;
+  /* color: #ea1d6f; */
+  color: var(--white);
   font-size: var(--fs-5);
   cursor: pointer;
   outline: none;
@@ -1306,7 +1307,7 @@ body.nav-active {
 }
 .error {
   visibility: hidden;
-  
+
 
 }
 
