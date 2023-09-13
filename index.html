@@ -26,7 +26,7 @@
         <p class="written-logo">osu.codes</p>
       </a>
 
-      <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
+      <button class="nav-toggle-btn" type="button" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
         <span class="line line-1"></span>
         <span class="line line-2"></span>
       </button>
@@ -88,7 +88,7 @@
             </p>
 
             <a href="https://drive.google.com/file/d/1gpCa-VSD0Uz7CKyO8bQldykrttprhqNj/view?usp=drive_link"
-              target="_blank" class="btn has-before">
+              target="_blank" rel="noopener" class="btn has-before">
               <span class="span">View Resume</span>
 
               <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
@@ -301,12 +301,12 @@
             </ul>
 
             <div class="slider-controls">
-              <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+              <button class="slider-control prev" type="button" data-slider-prev aria-label="Slide to previous item">
                 <div class="line"></div>
                 <div class="arrow"></div>
               </button>
 
-              <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+              <button class="slider-control next" type="button" data-slider-next aria-label="Slide to next item">
                 <div class="line"></div>
                 <div class="arrow"></div>
               </button>
@@ -340,12 +340,12 @@
 
 
             <div class="slider-controls">
-              <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+              <button class="slider-control prev" type="button" data-slider-prev aria-label="Slide to previous item">
                 <div class="line"></div>
                 <div class="arrow"></div>
               </button>
 
-              <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+              <button class="slider-control next" type="button" data-slider-next aria-label="Slide to next item">
                 <div class="line"></div>
                 <div class="arrow"></div>
               </button>
@@ -395,7 +395,7 @@
                   </div>
 
                   <div class="progress-bg">
-                    <div class="progress" style="width: 90%;"></div>
+                    <div class="progress widther"></div>
                   </div>
                 </li>
 
@@ -407,7 +407,7 @@
                   </div>
 
                   <div class="progress-bg">
-                    <div class="progress" style="width: 90%;"></div>
+                    <div class="progress widther"></div>
                   </div>
                 </li>
 
@@ -419,7 +419,7 @@
                   </div>
 
                   <div class="progress-bg">
-                    <div class="progress" style="width: 95%;"></div>
+                    <div class="progress widther1"></div>
                   </div>
                 </li>
 
@@ -431,7 +431,7 @@
                   </div>
 
                   <div class="progress-bg">
-                    <div class="progress" style="width: 50%;"></div>
+                    <div class="progress widther2"></div>
                   </div>
                 </li>
 
@@ -461,7 +461,7 @@
             <li>
               <div class="blog-card">
 
-                <figure class="card-banner img-holder" style="--width: 700; --height: 470;">
+                <figure class="card-banner img-holder">
                   <img src="./assets/images/blog-1.png" width="700" height="470" loading="lazy" alt="latest article."
                     class="img-cover">
                 </figure>
@@ -481,7 +481,7 @@
                     </p>
 
                     <a href="https://medium.com/@josugo38/unraveling-the-distinction-understanding-dependencies-and-dev-dependencies-in-node-js-d629ead7b013"
-                      class="btn has-before">
+                      target="_blank" class="btn has-before">
                       <span class="span">Read more</span>
 
                       <ion-icon name="arrow-forward"></ion-icon>
@@ -496,7 +496,7 @@
             <li>
               <div class="blog-card">
 
-                <figure class="card-banner img-holder" style="--width: 700; --height: 470;">
+                <figure class="card-banner img-holder">
                   <img src="./assets/images/blog-2.jpeg" width="700" height="470" loading="lazy"
                     alt="Mechanical project-pitch." class="img-cover">
                 </figure>
@@ -517,7 +517,7 @@
                       Kenya(CUK) and pitched the 'Mechanicall' application and came in at fourth position overall.
                     </p>
 
-                    <a href="https://twitter.com/osugo5/status/1585391222591348736?s=20" class="btn has-before">
+                    <a href="https://twitter.com/osugo5/status/1585391222591348736?s=20" target="_blank" class="btn has-before">
                       <span class="span">Read more</span>
 
                       <ion-icon name="arrow-forward"></ion-icon>
@@ -582,7 +582,7 @@
                       placeholder="Enter Message">
                   </div>
                   <div class="app-form-group buttons">
-                    <button class="app-form-button">SEND</button>
+                    <button  class="app-form-button">SEND</button>
                   </div>
                   <span id="form-error" class="error" aria-live="polite">! Your email needs to be in lowercase</span>
                 </form>
