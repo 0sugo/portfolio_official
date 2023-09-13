@@ -1,5 +1,67 @@
 'use strict';
 
+// Define your project data
+const projects = [
+  {
+    title: "CALENDERIFIC",
+    description: "Dive into the world of a math magician...",
+    imageSrc: "./assets/images/projo2.png",
+    githubLink: "https://github.com/0sugo/calenderific",
+    liveLink: "https://calenderific.onrender.com"
+  },
+  {
+    title: "CASH FLOW NEXUS",
+    description: "Another project description goes here...",
+    imageSrc: "./assets/images/projo1.png",
+    githubLink: "https://github.com/0sugo/cash-flow-nexus",
+    liveLink: "https://cash-flow-nexus.onrender.com/"
+  },
+  {
+    title: "LEADERBOARD",
+    description: "Yet another project description...",
+    imageSrc: "./assets/images/projo4.png",
+    githubLink: "https://github.com/0sugo/leaderboard",
+    liveLink: "https://0sugo.github.io/leaderboard/dist/"
+  },
+  {
+    title: "MATH MAGICIAN",
+    description: "Description of the Math Magician project...",
+    imageSrc: "./assets/images/projo6.png",
+    githubLink: "https://github.com/0sugo/math-magician",
+    liveLink: "https://math-magician-2bon.onrender.com"
+  },
+];
+
+
+// Function to generate project cards dynamically
+function generateProjectCards() {
+  const dynamicProjectsContainer = document.getElementById("dynamic-projects");
+
+  // Loop through the project data and create cards
+  projects.forEach((project) => {
+    const projectCard = document.createElement("li");
+    projectCard.classList.add("slider-item");
+    projectCard.innerHTML = `
+      <div class="portfolio-card" style="--width: 600; --height: 600;">
+        <img src="${project.imageSrc}" width="600" height="600" loading="lazy" alt="portfolio" class="img-cover">
+        <div class="card-content">
+          <h3 class="h3 card-title">${project.title}</h3>
+          <p class="card-text">${project.description}</p>
+          <div class="work-links">
+            <a href="${project.githubLink}" class="">code</a>
+            <a href="${project.liveLink}" class="sos">live</a>
+          </div>
+        </div>
+      </div>
+    `;
+
+    // Append the project card to the container
+    dynamicProjectsContainer.appendChild(projectCard);
+  });
+}
+
+// Call the function to generate project cards
+generateProjectCards();
 
 
 /**
@@ -191,4 +253,6 @@ if (email.value !== email.value.toLowerCase()) {
   errorMsg.style.visibility = 'hidden';
 }})
 
+
+ // Define your project data
 
