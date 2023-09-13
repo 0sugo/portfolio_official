@@ -67,7 +67,6 @@ const addEventOnElements = function (elements, eventType, callback) {
 }
 
 
-
 /**
  * PRELOADER
  */
@@ -221,7 +220,7 @@ var email = document.getElementById('email');
 var form = document.querySelector('.app-form');
 
 if (email.value !== email.value.toLowerCase()) {
-  errorMsg.textContent = 'Email should be in lowercase';
+  errorMsg.textContent = 'Email should be in lowercase !';
   errorMsg.style.visibility = 'visible';
 
   setTimeout(function() {
