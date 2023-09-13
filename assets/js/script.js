@@ -40,7 +40,7 @@ function generateProjectCards() {
     projectCard.classList.add("slider-item");
     projectCard.innerHTML = `
       <div class="portfolio-card" style="--width: 600; --height: 600;">
-        <img src="${project.imageSrc}" width="600" height="600" loading="lazy" alt="portfolio" class="img-cover">
+        <img src="${project.imageSrc}" width="600" height="600" loading="lazy" alt=${project.title} class="img-cover">
         <div class="card-content">
           <h3 class="h3 card-title">${project.title}</h3>
           <p class="card-text">${project.description}</p>
