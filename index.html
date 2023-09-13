@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -88,21 +89,7 @@
             </p>
 
             <a href="https://drive.google.com/file/d/1gpCa-VSD0Uz7CKyO8bQldykrttprhqNj/view?usp=drive_link"
-              target="_blank" /** * NAVBAR * navbar toggle for mobile */ const
-              navTogglers=document.querySelectorAll("[data-nav-toggler]"); const
-              navToggleBtn=document.querySelector("[data-nav-toggle-btn]"); const
-              navbar=document.querySelector("[data-navbar]"); const overlay=document.querySelector("[data-overlay]");
-              const toggleNavbar=function () { navbar.classList.toggle("active");
-              navToggleBtn.classList.toggle("active"); overlay.classList.toggle("active");
-              document.body.classList.toggle("nav-active"); } addEventOnElements(navTogglers, "click" , toggleNavbar);
-              /** * NAVBAR * navbar toggle for mobile */ const
-              navTogglers=document.querySelectorAll("[data-nav-toggler]"); const
-              navToggleBtn=document.querySelector("[data-nav-toggle-btn]"); const
-              navbar=document.querySelector("[data-navbar]"); const overlay=document.querySelector("[data-overlay]");
-              const toggleNavbar=function () { navbar.classList.toggle("active");
-              navToggleBtn.classList.toggle("active"); overlay.classList.toggle("active");
-              document.body.classList.toggle("nav-active"); } addEventOnElements(navTogglers, "click" , toggleNavbar);
-              class="btn has-before">
+              target="_blank" class="btn has-before">
               <span class="span">View Resume</span>
 
               <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
@@ -553,54 +540,57 @@
   -->
 
       <section class="section" id="contact-form">
-          <div class="container">
-            <p class="section-subtitle" id="blog-label">Wanna talk?</p>
-            <h2 class="h2 section-title">Contact</h2>
-            <div class="screen">
-              <div class="screen-header">
-                <div class="screen-header-left">
-                  <div class="screen-header-button close"></div>
-                  <div class="screen-header-button maximize"></div>
-                  <div class="screen-header-button minimize"></div>
-                </div>
-                <div class="screen-header-right">
-                  <div class="screen-header-ellipsis"></div>
-                  <div class="screen-header-ellipsis"></div>
-                  <div class="screen-header-ellipsis"></div>
-                </div>
+        <div class="container">
+          <p class="section-subtitle" id="blog-label">Wanna talk?</p>
+          <h2 class="h2 section-title">Contact</h2>
+          <div class="screen">
+            <div class="screen-header">
+              <div class="screen-header-left">
+                <div class="screen-header-button close"></div>
+                <div class="screen-header-button maximize"></div>
+                <div class="screen-header-button minimize"></div>
               </div>
-              <div class="screen-body">
-                <div class="screen-body-item left">
-                  <div class="app-title">
-                    <span>SHOOT ME A</span>
-                    <span>CHAT</span>
-                  </div>
-                  <div class="app-contact">CONTACT INFO : +254 726526801</div>
+              <div class="screen-header-right">
+                <div class="screen-header-ellipsis"></div>
+                <div class="screen-header-ellipsis"></div>
+                <div class="screen-header-ellipsis"></div>
+              </div>
+            </div>
+            <div class="screen-body">
+              <div class="screen-body-item left">
+                <div class="app-title">
+                  <span>SHOOT ME A</span>
+                  <span>CHAT</span>
                 </div>
-                <div class="screen-body-item">
+                <div class="app-contact">CONTACT INFO : +254 726526801</div>
+              </div>
+              <div class="screen-body-item">
 
-                  <form class="app-form" action="https://formspree.io/f/mayzodlp" method="post">
-                    <div class="app-form-group">
-                      <input class="app-form-control" type="text" placeholder="FullName"  maxlength="30" id="name" name="user_name" required>
-                    </div>
-                    <div class="app-form-group">
-                      <input class="app-form-control" type="email" placeholder="test@gmail.com" id="email" required name="user_email">
-                    </div>
-                    <div class="app-form-group">
-                      <input class="app-form-control" type="tel" placeholder="+254 712345678" required>
-                    </div>
-                    <div class="app-form-group message">
-                      <input class="app-form-control" id="message" name="user_message" maxlength="500" required placeholder="Enter Message">
-                    </div>
-                    <div class="app-form-group buttons">
-                      <button class="app-form-button">SEND</button>
-                    </div>
-                    <span id="form-error" class="error" aria-live="polite">Your email needs to be in lowercase</span>
-                  </form>
-                </div>
+                <form class="app-form" action="https://formspree.io/f/mayzodlp" method="post">
+                  <div class="app-form-group">
+                    <input class="app-form-control" type="text" placeholder="FullName" maxlength="30" id="name"
+                      name="user_name" required>
+                  </div>
+                  <div class="app-form-group">
+                    <input class="app-form-control" type="email" placeholder="test@gmail.com" id="email" required
+                      name="user_email">
+                  </div>
+                  <div class="app-form-group">
+                    <input class="app-form-control" type="tel" placeholder="+254 712345678" required>
+                  </div>
+                  <div class="app-form-group message">
+                    <input class="app-form-control" id="message" name="user_message" maxlength="500" required
+                      placeholder="Enter Message">
+                  </div>
+                  <div class="app-form-group buttons">
+                    <button class="app-form-button">SEND</button>
+                  </div>
+                  <span id="form-error" class="error" aria-live="polite">Your email needs to be in lowercase</span>
+                </form>
               </div>
             </div>
           </div>
+        </div>
 
 
       </section>
