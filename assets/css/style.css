@@ -1273,15 +1273,19 @@ body.nav-active {
 
 .app-form-control {
   width: 100%;
-  padding: 10px 0;
+  padding: 10px 10px;
   background: none;
   border: none;
   border-bottom: 1px solid #666;
   color: #ddd;
   font-size: 14px;
-  text-transform: uppercase;
   outline: none;
   transition: border-color .2s;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
 }
 
 .app-form-control::placeholder {
@@ -1295,7 +1299,6 @@ body.nav-active {
 .app-form-button {
   background: none;
   border: none;
-  /* color: #ea1d6f; */
   color: var(--white);
   font-size: var(--fs-5);
   cursor: pointer;
