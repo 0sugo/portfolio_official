@@ -1,31 +1,30 @@
 'use strict';
 
-// Define your project data
 const projects = [
   {
     title: "CALENDERIFIC",
-    description: "Dive into the world of a math magician...",
+    description: "Dive into the world of a math magician where you can make calculations while getting a peak inside the brilliant minds of the greatest mathematicians.",
     imageSrc: "./assets/images/projo2.png",
     githubLink: "https://github.com/0sugo/calenderific",
     liveLink: "https://calenderific.onrender.com"
   },
   {
     title: "CASH FLOW NEXUS",
-    description: "Another project description goes here...",
+    description: "Dive into the world of a math magician where you can make calculations while getting a peak inside the brilliant minds of the greatest mathematicians.",
     imageSrc: "./assets/images/projo1.png",
     githubLink: "https://github.com/0sugo/cash-flow-nexus",
     liveLink: "https://cash-flow-nexus.onrender.com/"
   },
   {
     title: "LEADERBOARD",
-    description: "Yet another project description...",
+    description: "Dive into the world of a math magician where you can make calculations while getting a peak inside the brilliant minds of the greatest mathematicians.",
     imageSrc: "./assets/images/projo4.png",
     githubLink: "https://github.com/0sugo/leaderboard",
     liveLink: "https://0sugo.github.io/leaderboard/dist/"
   },
   {
     title: "MATH MAGICIAN",
-    description: "Description of the Math Magician project...",
+    description: "Dive into the world of a math magician where you can make calculations while getting a peak inside the brilliant minds of the greatest mathematicians.",
     imageSrc: "./assets/images/projo6.png",
     githubLink: "https://github.com/0sugo/math-magician",
     liveLink: "https://math-magician-2bon.onrender.com"
@@ -33,11 +32,9 @@ const projects = [
 ];
 
 
-// Function to generate project cards dynamically
 function generateProjectCards() {
   const dynamicProjectsContainer = document.getElementById("dynamic-projects");
 
-  // Loop through the project data and create cards
   projects.forEach((project) => {
     const projectCard = document.createElement("li");
     projectCard.classList.add("slider-item");
@@ -55,18 +52,13 @@ function generateProjectCards() {
       </div>
     `;
 
-    // Append the project card to the container
     dynamicProjectsContainer.appendChild(projectCard);
   });
 }
 
-// Call the function to generate project cards
 generateProjectCards();
 
 
-/**
- * add event listener on multiple elements
- */
 
 const addEventOnElements = function (elements, eventType, callback) {
   for (let i = 0, len = elements.length; i < len; i++) {
@@ -109,7 +101,6 @@ addEventOnElements(navTogglers, "click", toggleNavbar);
 
 /**
  * HEADER
- * header active when window scroll down to 100px
  */
 
 const header = document.querySelector("[data-header]");
@@ -252,7 +243,3 @@ if (email.value !== email.value.toLowerCase()) {
 } else {
   errorMsg.style.visibility = 'hidden';
 }})
-
-
- // Define your project data
-
