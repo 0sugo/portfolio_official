@@ -91,6 +91,23 @@ const toggleNavbar = function () {
 
 addEventOnElements(navTogglers, 'click', toggleNavbar);
 
+// Get all the navbar links
+const navbarLinks = document.querySelectorAll('.navbar-link');
+
+// Function to close the navbar
+const closeNavbar = function () {
+  navbar.classList.remove('active'); // Close the navbar
+  navToggleBtn.classList.remove('active'); // Remove the active class from the toggle button
+  overlay.classList.remove('active'); // Remove the overlay
+  document.body.classList.remove('nav-active'); // Remove the nav-active class from the body
+};
+
+// Add click event listener to each navbar link
+navbarLinks.forEach((link) => {
+  link.addEventListener('click', closeNavbar);
+});
+
+
 /**
  * HEADER
  */
