@@ -42,8 +42,8 @@ function generateProjectCards() {
           <h3 class="h3 card-title">${project.title}</h3>
           <p class="card-text">${project.description}</p>
           <div class="work-links">
-            <a href="${project.githubLink}" class="">code</a>
-            <a href="${project.liveLink}" class="sos">live</a>
+            <a href="${project.githubLink}" target="_blank" class="">code</a>
+            <a href="${project.liveLink}" target="_blank" class="sos">live</a>
           </div>
         </div>
       </div>
