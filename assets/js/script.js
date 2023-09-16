@@ -2,6 +2,7 @@ const projects = [
   {
     title: 'CALENDERIFIC',
     description: 'Calenderific is a web application that provides information about holidays in different countries around the world. It allows users to explore holidays by country and view details of individual holidays.',
+    stack: 'React, Redux, CSS',
     imageSrc: './assets/images/projo2.png',
     githubLink: 'https://github.com/0sugo/calenderific',
     liveLink: 'https://calenderific.onrender.com',
@@ -9,6 +10,7 @@ const projects = [
   {
     title: 'CASH FLOW NEXUS',
     description: 'Cash Flow Nexus is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
+    stack: 'Ruby, Ruby on Rails',
     imageSrc: './assets/images/projo1.png',
     githubLink: 'https://github.com/0sugo/cash-flow-nexus',
     liveLink: 'https://cash-flow-nexus.onrender.com/',
@@ -16,6 +18,7 @@ const projects = [
   {
     title: 'LEADERBOARD',
     description: 'The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.',
+    stack: 'HTML, CSS, JS',
     imageSrc: './assets/images/projo4.png',
     githubLink: 'https://github.com/0sugo/leaderboard',
     liveLink: 'https://0sugo.github.io/leaderboard/dist/',
@@ -23,6 +26,7 @@ const projects = [
   {
     title: 'MATH MAGICIAN',
     description: 'Dive into the world of a math magician where you can make calculations while getting a peak inside the brilliant minds of the greatest mathematicians.',
+    stack: 'React, JS, CSS',
     imageSrc: './assets/images/projo6.png',
     githubLink: 'https://github.com/0sugo/math-magician',
     liveLink: 'https://math-magician-2bon.onrender.com',
@@ -40,6 +44,7 @@ function generateProjectCards() {
         <img src="${project.imageSrc}" width="600" height="600" loading="lazy" alt=${project.title} class="img-cover">
         <div class="card-content">
           <h3 class="h3 card-title">${project.title}</h3>
+          <h6 >${project.stack}</h6>
           <p class="card-text">${project.description}</p>
           <div class="work-links">
             <a href="${project.githubLink}" target="_blank" class="">code</a>
