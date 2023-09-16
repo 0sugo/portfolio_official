@@ -1,21 +1,21 @@
 const projects = [
   {
     title: 'CALENDERIFIC',
-    description: 'Dive into the world of a math magician where you can make calculations while getting a peak inside the brilliant minds of the greatest mathematicians.',
+    description: 'Calenderific is a web application that provides information about holidays in different countries around the world. It allows users to explore holidays by country and view details of individual holidays.',
     imageSrc: './assets/images/projo2.png',
     githubLink: 'https://github.com/0sugo/calenderific',
     liveLink: 'https://calenderific.onrender.com',
   },
   {
     title: 'CASH FLOW NEXUS',
-    description: 'Dive into the world of a math magician where you can make calculations while getting a peak inside the brilliant minds of the greatest mathematicians.',
+    description: 'Cash Flow Nexus is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
     imageSrc: './assets/images/projo1.png',
     githubLink: 'https://github.com/0sugo/cash-flow-nexus',
     liveLink: 'https://cash-flow-nexus.onrender.com/',
   },
   {
     title: 'LEADERBOARD',
-    description: 'Dive into the world of a math magician where you can make calculations while getting a peak inside the brilliant minds of the greatest mathematicians.',
+    description: 'The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.',
     imageSrc: './assets/images/projo4.png',
     githubLink: 'https://github.com/0sugo/leaderboard',
     liveLink: 'https://0sugo.github.io/leaderboard/dist/',
