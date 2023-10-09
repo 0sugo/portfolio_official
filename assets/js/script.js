@@ -8,6 +8,14 @@ const projects = [
     liveLink: 'https://calenderific.onrender.com',
   },
   {
+    title: 'AMAZING ANGELS',
+    description: 'Amazing angels is a frontend only website that provides information about a care giving agency based in the US  and it allows you to book for an appointment with them.',
+    stack: 'React, Tailwind',
+    imageSrc: './assets/images/projo5.png',
+    githubLink: 'https://github.com/0sugo/care',
+    liveLink: 'https://www.amazingangels.us/',
+  },
+  {
     title: 'CASH FLOW NEXUS',
     description: 'Cash Flow Nexus is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
     stack: 'Ruby, Ruby on Rails',
