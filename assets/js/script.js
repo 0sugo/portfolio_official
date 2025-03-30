@@ -8,12 +8,12 @@ const projects = [
     liveLink: 'https://successhcgroup.com.au',
   },
   {
-    title: 'CALENDERIFIC',
-    description: 'Calenderific is a web application that provides information about holidays in different countries around the world. It allows users to explore holidays by country and view details of individual holidays.',
-    stack: 'React, Redux, CSS',
-    imageSrc: './assets/images/projo2.png',
-    githubLink: 'https://github.com/0sugo/calenderific',
-    liveLink: 'https://calenderific.onrender.com',
+    title: 'HEART OF HUMANITY FOUNDATION',
+    description: 'HEART OF HUMANITY FOUNDATION is a website for a non-profit organization based in Norwa with a focus to assist poverty striken african communities.',
+    stack: 'NextJs, Shadcn, Tailwind, Strapi',
+    imageSrc: './assets/images/foundation.png',
+    githubLink: '/',
+    liveLink: '/',
   },
   {
     title: 'AMAZING ANGELS',
@@ -23,6 +23,15 @@ const projects = [
     githubLink: 'https://github.com/0sugo/care',
     liveLink: 'https://www.amazingangels.us/',
   },
+  {
+    title: 'CALENDERIFIC',
+    description: 'Calenderific is a web application that provides information about holidays in different countries around the world. It allows users to explore holidays by country and view details of individual holidays.',
+    stack: 'React, Redux, CSS',
+    imageSrc: './assets/images/projo2.png',
+    githubLink: 'https://github.com/0sugo/calenderific',
+    liveLink: 'https://calenderific.onrender.com',
+  },
+
   {
     title: 'CASH FLOW NEXUS',
     description: 'Cash Flow Nexus is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
