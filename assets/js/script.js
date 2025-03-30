@@ -1,5 +1,13 @@
 const projects = [
   {
+    title: 'SUCCESS HC GROUP',
+    description: 'SUCCESS HC GROUP is a website for success healthcare group based in australia.',
+    stack: 'NextJs, Shadcn, Tailwind',
+    imageSrc: './assets/images/successhcgroup.png',
+    githubLink: '/',
+    liveLink: 'https://successhcgroup.com.au',
+  },
+  {
     title: 'CALENDERIFIC',
     description: 'Calenderific is a web application that provides information about holidays in different countries around the world. It allows users to explore holidays by country and view details of individual holidays.',
     stack: 'React, Redux, CSS',
