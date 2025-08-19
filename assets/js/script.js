@@ -7,6 +7,14 @@ const projects = [
     githubLink: '/',
     liveLink: 'https://successhcgroup.com.au',
   },
+   {
+    title: 'UNFPA',
+    description: 'An interactive African map with clickable countries that had qualified with stunning innovations in the region alongside their videos.',
+    stack: 'NextJs, Shadcn, Tailwind,',
+    imageSrc: './assets/images/projo8.png',
+    githubLink: '/https://github.com/0sugo/UNFPA.git',
+    liveLink: 'https://unfpa.tuni.ke/',
+  },
   {
     title: 'HEART OF HUMANITY FOUNDATION',
     description: 'HEART OF HUMANITY FOUNDATION is a website for a non-profit organization based in Norwa with a focus to assist poverty striken african communities.',
@@ -14,6 +22,14 @@ const projects = [
     imageSrc: './assets/images/foundation.png',
     githubLink: '/',
     liveLink: '/',
+  },
+  {
+    title: 'TUNI FOR MALLS',
+    description: 'Tic-Tac-Toe game designed for malls inorder to increase customer/human engagement in malls in a bid to increase foot traffic in malls.',
+    stack: 'NextJs, MySQL, Tailwind,Laravel,',
+    imageSrc: './assets/images/projo7.png',
+    githubLink: 'https://github.com/0sugo/Tuni',
+    liveLink: 'https://github.com/0sugo/Tuni',
   },
   {
     title: 'AMAZING ANGELS',
@@ -48,14 +64,7 @@ const projects = [
     githubLink: 'https://github.com/0sugo/leaderboard',
     liveLink: 'https://0sugo.github.io/leaderboard/dist/',
   },
-  {
-    title: 'MATH MAGICIAN',
-    description: 'Dive into the world of a math magician where you can make calculations while getting a peak inside the brilliant minds of the greatest mathematicians.',
-    stack: 'React, JS, CSS',
-    imageSrc: './assets/images/projo6.png',
-    githubLink: 'https://github.com/0sugo/math-magician',
-    liveLink: 'https://math-magician-2bon.onrender.com',
-  },
+  
 ];
 
 function generateProjectCards() {
