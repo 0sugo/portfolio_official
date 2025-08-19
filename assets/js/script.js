@@ -1,11 +1,11 @@
 const projects = [
-  {
-    title: 'SUCCESS HC GROUP',
-    description: 'SUCCESS HC GROUP is a website for success healthcare group based in australia.',
-    stack: 'NextJs, Shadcn, Tailwind',
-    imageSrc: './assets/images/successhcgroup.png',
+   {
+    title: 'Pesha',
+    description: 'Pesha is an expense management web and mobile application.Pesha is designed to streamline handling expenses, ensuring transparency, accountability, and efficiency. Whether you are a small business or an organization our expense management system is tailored to meet your needs.',
+    stack: 'Laravel, VueJs, TailwindCss, Inertia',
+    imageSrc: './assets/images/projo9.png',
     githubLink: '/',
-    liveLink: 'https://successhcgroup.com.au',
+    liveLink: 'https://pesha.co.ke',
   },
    {
     title: 'UNFPA',
@@ -16,12 +16,12 @@ const projects = [
     liveLink: 'https://unfpa.tuni.ke/',
   },
   {
-    title: 'HEART OF HUMANITY FOUNDATION',
-    description: 'HEART OF HUMANITY FOUNDATION is a website for a non-profit organization based in Norwa with a focus to assist poverty striken african communities.',
-    stack: 'NextJs, Shadcn, Tailwind, Strapi',
-    imageSrc: './assets/images/foundation.png',
+    title: 'SUCCESS HC GROUP',
+    description: 'SUCCESS HC GROUP is a website for success healthcare group based in australia.',
+    stack: 'NextJs, Shadcn, Tailwind',
+    imageSrc: './assets/images/successhcgroup.png',
     githubLink: '/',
-    liveLink: '/',
+    liveLink: 'https://successhcgroup.com.au',
   },
   {
     title: 'TUNI FOR MALLS',
@@ -30,6 +30,14 @@ const projects = [
     imageSrc: './assets/images/projo7.png',
     githubLink: 'https://github.com/0sugo/Tuni',
     liveLink: 'https://github.com/0sugo/Tuni',
+  },
+  {
+    title: 'HEART OF HUMANITY FOUNDATION',
+    description: 'HEART OF HUMANITY FOUNDATION is a website for a non-profit organization based in Norwa with a focus to assist poverty striken african communities.',
+    stack: 'NextJs, Shadcn, Tailwind, Strapi',
+    imageSrc: './assets/images/foundation.png',
+    githubLink: '/',
+    liveLink: '/',
   },
   {
     title: 'AMAZING ANGELS',
@@ -46,15 +54,6 @@ const projects = [
     imageSrc: './assets/images/projo2.png',
     githubLink: 'https://github.com/0sugo/calenderific',
     liveLink: 'https://calenderific.onrender.com',
-  },
-
-  {
-    title: 'Pesha',
-    description: 'Pesha is an expense management web and mobile application.Pesha is designed to streamline handling expenses, ensuring transparency, accountability, and efficiency. Whether you are a small business or an organization our expense management system is tailored to meet your needs.',
-    stack: 'Laravel, VueJs, TailwindCss, Inertia',
-    imageSrc: './assets/images/projo9.png',
-    githubLink: '/',
-    liveLink: 'https://pesha.co.ke',
   },
   {
     title: 'LEADERBOARD',
