@@ -49,12 +49,12 @@ const projects = [
   },
 
   {
-    title: 'CASH FLOW NEXUS',
-    description: 'Cash Flow Nexus is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
-    stack: 'Ruby, Ruby on Rails',
-    imageSrc: './assets/images/projo1.png',
-    githubLink: 'https://github.com/0sugo/cash-flow-nexus',
-    liveLink: 'https://cash-flow-nexus.onrender.com/',
+    title: 'Pesha',
+    description: 'Pesha is an expense management web and mobile application.Pesha is designed to streamline handling expenses, ensuring transparency, accountability, and efficiency. Whether you are a small business or an organization our expense management system is tailored to meet your needs.',
+    stack: 'Laravel, VueJs, TailwindCss, Inertia',
+    imageSrc: './assets/images/projo9.png',
+    githubLink: '/',
+    liveLink: 'https://pesha.co.ke',
   },
   {
     title: 'LEADERBOARD',
